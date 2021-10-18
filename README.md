@@ -6,3 +6,6 @@ My first HTML/CSS exercice, a simple and static website page describing the Simp
 
 exercice-2: HTML/CSS portfolio exercice.
 My second HTML/CSS exercice, a simple portfolio with some animations.
+
+
+exercice-3: simple algo exercices.
