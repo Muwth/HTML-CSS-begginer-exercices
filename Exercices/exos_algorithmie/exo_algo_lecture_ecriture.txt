@@ -1,0 +1,45 @@
+
+1) 231
+   462
+
+
+
+2) variables nombre,carre numeriques
+
+    nombre <- 0
+    carre  <- 0
+
+debut
+    lire("saisir un nombre:"; nombre)
+    carre <- nombre^2
+    ecrire("le carré de votre nombre est:"; carre)
+fin
+
+
+
+3) variables prix_ht,nombre,tva,prix_ttc numeriques
+
+    debut
+        lire("saisir le prix HT:"; prix_ht)
+        lire("saisir le nombre d'articles:"; nombre)
+        lire("saisir le taux de tva:"; tva)
+
+        prix_ttc <- (prix_ht*nombre)*(1+tva)
+
+        ecrire("le prix tital TTC est de:"; prix_ttc)
+    fin
+
+
+4) variables marquise,yeux,mourir,amour en chaine
+
+    debut
+        marquise <- "belle marquise"
+        yeux <- "vos beaux yeux"
+        mourir <- "me font mourir"
+        amour <- "d'amour"
+
+        ecrire(marquise&&yeux&&mourir&&amour)
+        ecrire(yeux&&marquise&&mourir&&amour)
+        ecrire(yeux&&mourir&&amour&&marquise)
+        ecrire(amour&&mourir&&yeux&&marquise)
+    fin

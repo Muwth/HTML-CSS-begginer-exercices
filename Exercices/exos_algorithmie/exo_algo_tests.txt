@@ -1,0 +1,36 @@
+
+
+1) var nombre int
+    start
+        read("entrez un nombre:";nombre)
+        if nombre > 0
+        write("le nombre";nombre"est un nombre positif")
+        else if nombre < 0
+        write("le nombre";nombre"est un nombre negatif")
+        else
+        write("votre nombre est nulle")
+        end if
+    end
+
+
+
+2) var premier_nombre,second_nombre int
+    start
+        read("entrez le premier nombre:";premier_nombre)
+        read("entrez le second nombre:";second_nombre)
+        if ((premier_nombre > 0) and (second_nombre > 0)) or ((premier_nombre < 0) and (second_nombre < 0))
+        write("le produit de vos deux nombres est positif")
+        else
+        write("le produit de vos deux nombres est négatif")
+        end if
+    end
+
+
+
+3) var premier_nom,second_nom,troisieme_nom char
+    start
+        read("entrez le premier nom:";premier_nom)
+        read("entrez le second nom:";second_nom)
+        read("entrez le troisième nom:";troisieme_nom)
+        
+

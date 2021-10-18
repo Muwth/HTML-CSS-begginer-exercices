@@ -1,0 +1,176 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+/* corps du document */
+body{
+    background-color:rgb(255, 217, 15);
+}
+
+
+/* conteneur principal */
+#wrapper{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+/* entête du document */
+header{
+    background-color: white;
+}
+
+/* titre principal */
+h1{
+    text-align: center;
+    background-color: rgb(69, 69, 238);
+}
+
+/* images */
+.hidden{
+    width: 100%;
+}
+
+.image{
+    width: 70%;
+    border: 2px solid white;
+    margin-top:2%;
+}
+
+/* contenu principal */
+main{
+    background-color:white;
+}
+
+/* article */
+article{
+    width: 62.5%;
+    margin: 6% 1.5% 0 1.5%;
+    font-size: 1.1em;
+}
+
+h2{
+    color: rgb(255, 217, 15);
+    margin-bottom: 2%;
+    font-size: 1.7em;
+}
+
+/* nav */
+nav{
+    background-color: rgb(69, 69, 238);
+    width: 14%;
+    margin: 5% 0% 27% 1.5%;
+    padding: 1%;
+    border: 2px solid rgb(64, 64, 209);
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    height: 180px;
+}
+
+/* liens de redirection */
+a{
+    text-decoration: none;
+    padding: 3px 3px 3px 3px;
+}
+
+/* aside */
+aside{
+    width: 19%;
+    margin:5% 1.5% 6% 0%;
+    background-color: rgb(69, 69, 238);
+    text-align: center;
+    padding: 1%;
+    border: 2px solid rgb(64, 64, 209);
+}
+
+/* paragraphes */
+p{
+    font-size: 1em;
+    text-align: justify;
+}
+
+h3{
+    margin:3% 0% 7% 0%;
+    font-size: 1.4em;
+}
+
+/* pied de page */
+footer{
+    background-color: rgb(39, 39, 124);
+    text-align: center;
+    padding: 1% 0%;  
+}
+
+small{
+    font-size: 1em;
+}
+
+.white{
+    color: white;
+}
+.flex{
+    display:flex;
+}
+
+
+/* adaptation à la taille d'écran d'un téléphone */
+
+@media screen and (max-width:767px){
+    main{
+        flex-direction: column;
+        width: auto;
+    }
+    nav{
+        width: auto;
+        height: auto;
+        margin: 0 1.5% 2% 1.5%;
+    }
+    article{
+        width: auto;
+        margin: 6% 2.5% 1% 2.5%;
+    }
+    aside{
+        width: auto;
+        margin: 5% 1.5% 6% 1.5%;
+    }
+    #wrapper{
+        width: 100%;
+        margin: 0;
+        padding: 1em;
+    }
+}
+
+@media screen and (max-width:1024px) and (min-width:768px){
+    main{
+        flex-direction: column;
+        width: auto;
+        font-size: 1.2em;
+    }
+    nav{
+        width: auto;
+        height: auto;
+        margin: 0 0 3%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    article{
+        width: auto;
+        margin: 0 2% 3% 2%;
+    }
+    aside{
+        width: auto;
+        margin: 0 0 3%;
+    }
+    #wrapper{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .textaside{
+        padding: 0 1% 1% 1%;
+    }
+}
